@@ -52,10 +52,10 @@ export default class App {
         while(i <= fin) {
 
             if(i%2 != 0) {
-                res = res + 1;
+                res++;
             }
 
-            i = i + 1;
+            i++;
         }
    
         return res;
