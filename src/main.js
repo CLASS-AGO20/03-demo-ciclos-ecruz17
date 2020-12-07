@@ -25,6 +25,25 @@ export default class App {
 
     }
 
+    sumarParesWhile() {
+
+        let pares = 0;
+        let i = 1;
+
+        while(i<21) {
+           
+            if(i%2 == 0) {
+                pares = pares + i;
+            }    
+
+            i = i + 1;
+
+        }
+
+        return pares;
+
+    }
+
 
 }
 
@@ -33,3 +52,5 @@ let app = new App();
 console.log(app.sumarParesFor())
 
 console.log(app.contarImparesFor(5,10))
+
+console.log(app.sumarParesWhile())
